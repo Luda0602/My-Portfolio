@@ -1,16 +1,35 @@
 @import "./reset.css";
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;700&display=swap');
-  
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@400;500;700&display=swap");
 
 /* font-family: "DM Sans", sans-serif;
    font-family: "Poppins", sans-serif; */
 
-   html,body {
-    font-family: "DM Sans", sans-serif;
-   }
+/* * {
+  border: 1px solid red;
+} */
 
-   /* Nav */
-   .nav {
+html,
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Nav */
+.nav {
+  padding: 20px 0;
+  border-bottom: 1px solid #26292d;
   background-color: #171718;
   color: #fff;
-   }
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.nav-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 30px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+}
